@@ -1,1 +1,17 @@
-{}
+{
+    "Python Testing Starter Template": {
+        "prefix": "!pyutest",
+        "body": [
+            "import unittest",
+            "$0",
+            "class ${1:SimpleTest}(unittest.TestCase):",
+            "$0",
+            "\tdef test(self):",
+            "\t\tself.assertTrue(True)",
+            "$0",
+            "if __name__ == '__main__':",
+            "\tunittest.main()"
+        ],
+        "description": "Starting code for use of the python unittest module"
+    }
+}

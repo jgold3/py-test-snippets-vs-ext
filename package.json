@@ -3,6 +3,12 @@
     "displayName": "pyTestSnippets",
     "description": "Simple Python unit test snippet generator. Supports Django, and Selenium unit testing. ",
     "version": "0.0.1",
+    "publisher": "Josh Goldsmith",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jgold3/py-test-snippets-vs-ext"
+    },
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.55.0"
     },
