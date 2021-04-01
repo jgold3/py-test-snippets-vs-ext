@@ -1,8 +1,11 @@
 {
-    "Python Testing Starter Template": {
+    "Python unittest Starter Template": {
         "prefix": "!pyutest",
         "body": [
+            "from time import sleep",
             "import unittest",
+            "import random",
+            "import string",
             "$0",
             "class ${1:SimpleTest}(unittest.TestCase):",
             "$0",
@@ -13,5 +16,21 @@
             "\tunittest.main()"
         ],
         "description": "Starting code for use of the python unittest module"
+    },
+
+    "Django Testing Starter Template": {
+        "prefix": "!djtest",
+        "body": [
+            "from time import sleep",
+            "from django.test import TestCase",
+            "import random",
+            "import string",
+            "$0",
+            "class ${1:SimpleTest}(TestCase):",
+            "$0",
+            "\tdef test(self):",
+            "\t\tself.assertTrue(True)"
+        ],
+        "description": "Starting code for use of Django TestCase class"
     }
 }
