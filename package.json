@@ -1,0 +1,20 @@
+{
+    "name": "pytestsnippets",
+    "displayName": "pyTestSnippets",
+    "description": "Simple Python unit test snippet generator. Supports Django, and Selenium unit testing. ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
